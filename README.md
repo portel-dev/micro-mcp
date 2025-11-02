@@ -210,7 +210,6 @@ This project is licensed under the MIT License - see each individual MicroMCP fi
 
 - **Issues**: [GitHub Issues](https://github.com/portel-dev/micro-mcp/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/portel-dev/micro-mcp/discussions)
-- **Discord**: [Portel Community](https://discord.gg/portel)
 
 ---
 
