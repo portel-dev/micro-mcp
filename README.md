@@ -204,7 +204,6 @@ This project is licensed under the MIT License - see each individual MicroMCP fi
 - **[NCP](https://github.com/anthropics/ncp)** - **Required** CLI for managing and running MCPs
 - **[mcps.portel.dev](https://mcps.portel.dev)** - MCP Registry (auto-syncs MicroMCPs)
 - **[MCP Specification](https://spec.modelcontextprotocol.io/)** - Official protocol docs
-- **[Portel](https://portel.dev)** - MCP platform
 
 ## 💬 Support
 
@@ -214,5 +213,3 @@ This project is licensed under the MIT License - see each individual MicroMCP fi
 ---
 
 **Made with ❤️ by the Portel team**
-
-[Discover more MCPs →](https://mcps.portel.dev)
