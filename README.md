@@ -8,6 +8,24 @@ MicroMCP is the simplest way to create MCP (Model Context Protocol) servers. Wri
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io/)
 
+## 📋 Prerequisites
+
+**You need [NCP](https://github.com/anthropics/ncp) to use MicroMCPs.**
+
+NCP is the CLI tool for managing and running MCP servers. It provides:
+- **Discovery**: Find MCPs via `ncp find`
+- **Execution**: Run tools via `ncp run`
+- **Management**: Install and configure MCPs
+- **MicroMCP Support**: Built-in support for `.micro.ts` files
+
+### Install NCP
+
+```bash
+npm install -g @anthropic-ai/ncp
+```
+
+Once NCP is installed, you can use any MicroMCP immediately without additional setup.
+
 ## 🚀 Quick Start
 
 Create a file `greet.micro.ts`:
@@ -183,9 +201,9 @@ This project is licensed under the MIT License - see each individual MicroMCP fi
 
 ## 🔗 Links
 
+- **[NCP](https://github.com/anthropics/ncp)** - **Required** CLI for managing and running MCPs
+- **[mcps.portel.dev](https://mcps.portel.dev)** - MCP Registry (auto-syncs MicroMCPs)
 - **[MCP Specification](https://spec.modelcontextprotocol.io/)** - Official protocol docs
-- **[NCP](https://github.com/anthropics/ncp)** - CLI for managing MCPs
-- **[mcps.portel.dev](https://mcps.portel.dev)** - MCP Registry
 - **[Portel](https://portel.dev)** - MCP platform
 
 ## 💬 Support
