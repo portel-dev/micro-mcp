@@ -10,18 +10,19 @@ MicroMCP is the simplest way to create MCP (Model Context Protocol) servers. Wri
 
 ## 📋 Prerequisites
 
-**You need [NCP](https://github.com/anthropics/ncp) to use MicroMCPs.**
+**You need [NCP](https://github.com/portel-dev/ncp) to use MicroMCPs.**
 
-NCP is the CLI tool for managing and running MCP servers. It provides:
-- **Discovery**: Find MCPs via `ncp find`
-- **Execution**: Run tools via `ncp run`
-- **Management**: Install and configure MCPs
-- **MicroMCP Support**: Built-in support for `.micro.ts` files
+NCP is the MCP orchestration platform that unifies all your MCPs into one intelligent interface. It provides:
+- **Intelligent Discovery**: Find any tool instantly across all MCPs
+- **Unified Execution**: Run tools from any MCP via simple interface
+- **Smart Management**: Install, configure, and monitor MCPs
+- **MicroMCP Support**: Built-in support for single-file `.micro.ts` servers
+- **Production Features**: Scheduling, analytics, health monitoring
 
 ### Install NCP
 
 ```bash
-npm install -g @anthropic-ai/ncp
+npm install -g @portel/ncp
 ```
 
 Once NCP is installed, you can use any MicroMCP immediately without additional setup.
@@ -201,7 +202,7 @@ This project is licensed under the MIT License - see each individual MicroMCP fi
 
 ## 🔗 Links
 
-- **[NCP](https://github.com/anthropics/ncp)** - **Required** CLI for managing and running MCPs
+- **[NCP](https://github.com/portel-dev/ncp)** - MCP Orchestration Platform (1 MCP to rule them all)
 - **[mcps.portel.dev](https://mcps.portel.dev)** - MCP Registry (auto-syncs MicroMCPs)
 - **[MCP Specification](https://spec.modelcontextprotocol.io/)** - Official protocol docs
 
